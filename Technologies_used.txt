@@ -6,3 +6,8 @@ Jupyter Notebook and Pandas will be used to clean and perform the initial explor
 ## Database Storage
 The satabase that we will be using is Postgres
 
+## Machine Learning
+SKLearn is the machine learning library that we will be using to create our model. We have an initial random forrest model to find the impotant factors. 
+
+## Dashboard
+We will use D3.js to make ann interactive dashboard with a map to visualize the data. At the time being, we are unsure where it will be hosted on. 
