@@ -3,7 +3,7 @@ CREATE TABLE covid_table (
 	date date,	
 	county	varchar(100),
 	state	varchar(30),
-	fips	int PRIMARY KEY,
+	fips	int ,
 	cases	int,
 	deaths	int,
 	stay_at_home_announced varchar(10),	
@@ -189,7 +189,7 @@ CREATE TABLE covid_table (
 	km_to_closest_station	float,
 	CALL	varchar(50),
 	ELEV_M	float,
-	station_id	int,
+	station_id	text,
 	station_name	varchar(100),
 	mean_temp	float,
 	min_temp	float,
@@ -231,5 +231,3 @@ CREATE TABLE covid_table (
 	
 
 );
-
-
