@@ -3,3 +3,6 @@
 ## Data Cleaning and Analysis
 Jupyter Notebook and Pandas will be used to clean and perform the initial exploritory data analysis. Further data analysis will be finished with Python and potentially SQL.
 
+## Database Storage
+The satabase that we will be using is Postgres
+
