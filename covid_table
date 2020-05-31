@@ -1,5 +1,6 @@
 CREATE TABLE covid_table (
 
+	index int, 
 	date date,	
 	county	varchar(100),
 	state	varchar(30),
