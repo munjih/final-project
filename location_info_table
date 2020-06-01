@@ -1,0 +1,21 @@
+-- Table: public.location_info
+
+-- DROP TABLE public.location_info;
+
+CREATE TABLE public.location_info
+(
+    index integer,
+    county character varying(100) COLLATE pg_catalog."default",
+    state character varying(30) COLLATE pg_catalog."default",
+    fips integer NOT NULL,
+    lat double precision,
+    lon double precision,
+    CONSTRAINT location_info_pkey PRIMARY KEY (fips)
+)
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE pg_default;
+
+ALTER TABLE public.location_info
+    OWNER to postgres;
