@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Health, socioeconomic factors and COVID-19
 Amid COVID-19 pandemic, we attempt this analysis to acheive a better understanding of the health and socioeconomic factors affecting the spread of the virus.  
 
@@ -12,3 +13,7 @@ Simply thinking, we would expect a similar fatality rate across the nation, howe
 
 
 
+=======
+### Link for presentation
+https://docs.google.com/presentation/d/1h5Y0uAqfvevRgfUIDPf4QB129fScZghaoJzVZ8aUxrU/edit?usp=sharing
+>>>>>>> origin/presentation
