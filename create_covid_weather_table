@@ -1,0 +1,62 @@
+-- Table: public.covid_weather_table
+
+-- DROP TABLE public.covid_weather_table;
+
+CREATE TABLE public.covid_weather_table
+(
+    index integer,
+    date date,
+    county character varying(100) COLLATE pg_catalog."default",
+    state character varying(30) COLLATE pg_catalog."default",
+    fips integer,
+    km_to_closest_station double precision,
+    call character varying(50) COLLATE pg_catalog."default",
+    elev_m double precision,
+    station_id text COLLATE pg_catalog."default",
+    station_name character varying(100) COLLATE pg_catalog."default",
+    mean_temp double precision,
+    min_temp double precision,
+    max_temp double precision,
+    dewpoint double precision,
+    sea_level_pressure double precision,
+    station_pressure double precision,
+    visibility double precision,
+    wind_speed double precision,
+    max_wind_speed double precision,
+    wind_gust double precision,
+    precipitation double precision,
+    precip_flag character varying(5) COLLATE pg_catalog."default",
+    fog integer,
+    rain integer,
+    snow integer,
+    hail integer,
+    thunder integer,
+    tornado integer,
+    mean_temp_3d_avg double precision,
+    mean_temp_5d_avg double precision,
+    mean_temp_10d_avg double precision,
+    mean_temp_15d_avg double precision,
+    max_temp_3d_avg double precision,
+    max_temp_5d_avg double precision,
+    max_temp_10d_avg double precision,
+    max_temp_15d_avg double precision,
+    min_temp_3d_avg double precision,
+    min_temp_5d_avg double precision,
+    min_temp_10d_avg double precision,
+    min_temp_15d_avg double precision,
+    dewpoint_3d_avg double precision,
+    dewpoint_5d_avg double precision,
+    dewpoint_10d_avg double precision,
+    dewpoint_15d_avg double precision,
+    CONSTRAINT covid_weather_table_fips_fkey FOREIGN KEY (fips)
+        REFERENCES public.location_info (fips) MATCH SIMPLE
+        ON UPDATE NO ACTION
+        ON DELETE NO ACTION
+)
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE pg_default;
+
+ALTER TABLE public.covid_weather_table
+    OWNER to postgres;
