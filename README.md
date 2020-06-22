@@ -7,13 +7,15 @@ Our life is currently impacted by COVID-19.  We wanted to use our skills to demo
 
 - Database: PostgreSQL
 
-- Data exploration 
+- Data exploration by Tableau
   - Analysis of case and death number in counties revealed difference in fatality rate (death per case)
 
 ## What socioeconomic factors have an effect on the fatality rate of COVID-19?  
 - Use machine learning to learn which health, socioeconomic factors have on COVID-19 fatality rate
-  - Compare different ML algorithms 
-  - 
+  - Data preprocessing needed for ML
+  - Health and socioeconomic features were selected
+  - The counties that have a fatality rate higher than the national fatality rate was classified as "high-risk" counties
+  - Select top 10 features increasing the risk
+  - Compare different ML methods
 
-Simply thinking, we would expect a similar fatality rate across the nation, however, our data analysis shows some areas with noticeably higher fatality rates and other areas with very low fatality rates. In order to understand the factors leading to this variability, we decided to look into the socioeconomic and health factors in different geographical area. 
-
+- [Presentation](https://docs.google.com/presentation/d/1h5Y0uAqfvevRgfUIDPf4QB129fScZghaoJzVZ8aUxrU/edit?ts=5ed80d14#slide=id.gc6f980f91_0_33)
