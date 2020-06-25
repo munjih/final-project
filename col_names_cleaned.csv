@@ -162,7 +162,7 @@ percent_minorities,y
 percent_limited_english_abilities,y
 percent_multi_unit_housing,y
 percent_mobile_homes,y
-percent_overcrowding,y
+percent_overcrowding,n
 percent_no_vehicle,y
 percent_institutionalized_in_group_quarters,y
 percentile_rank_below_poverty,y
