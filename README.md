@@ -8,14 +8,21 @@ Our life is currently impacted by COVID-19.  We wanted to use our skills to demo
 - Database: PostgreSQL
 
 - Data exploration by Tableau
-  - Analysis of case and death number in counties revealed difference in fatality rate (death per case)
+  - Analysis of number of case and death by state and county level
+  - Analysis of fatality rate by state and county
+  - Demonstration of fatality rate as a "time independent" feature 
+  - Interactive dashboard on fatality rate -> [Dashboard](https://public.tableau.com/views/Covid-19FatalityRateDashboard/FatalityRateDashboard?:language=en&:display_count=y&:origin=viz_share_link)
+
 
 ## What socioeconomic factors have an effect on the fatality rate of COVID-19?  
 - Use machine learning to learn which health, socioeconomic factors have on COVID-19 fatality rate
-  - Data preprocessing needed for ML
+  - Two key assumptions for our model
+    - Fatality rate is time independent
+    - Fatality risk (binary score of 0 and 1) is our target feature
   - Health and socioeconomic features were selected
-  - The counties that have a fatality rate higher than the national fatality rate was classified as "high-risk" counties
-  - Select top 10 features increasing the risk
-  - Compare different ML methods
+  - Selected top 20 features leading to high risk by Random Forest 
+  - Used Random Forest, SVM, Logistic regression, and Neural network for classification
+  - Compared the accuracy of prediction by different machine learning algorithms
 
 - [Presentation](https://docs.google.com/presentation/d/1h5Y0uAqfvevRgfUIDPf4QB129fScZghaoJzVZ8aUxrU/edit?ts=5ed80d14#slide=id.gc6f980f91_0_33)
+
