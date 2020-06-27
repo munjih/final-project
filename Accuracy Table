@@ -1,8 +1,0 @@
-,Model,Accuracy Score
-0,Random Forrest,0.7142857142857143
-1,Logistic Regression,0.6942857142857143
-2,SVM,0.7285714285714285
-3,Neural Network,0.6828571557998657
-4,SVM with Top Features,0.7228571428571429
-5,Logistic Regression with Top Features,0.7257142857142858
-6,Neural Network with Top Features,0.691428542137146
