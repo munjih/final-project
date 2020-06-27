@@ -8,8 +8,8 @@ Our life is currently impacted by COVID-19.  We wanted to use our skills to demo
 - Database: PostgreSQL
 
 - Data exploration by Tableau
-  - Analysis of number of case and death by state and county level
-  - Analysis of fatality rate by state and county
+  - Analysis of number of case and death by state and county level (InitalDataDashboard.twb)
+  - Analysis of fatality rate by state and county (FatalityRateDashboard.twb)
   - Demonstration of fatality rate as a "time independent" feature 
   - Interactive dashboard on fatality rate -> [Dashboard](https://public.tableau.com/views/Covid-19FatalityRateDashboard/FatalityRateDashboard?:language=en&:display_count=y&:origin=viz_share_link)
 
@@ -20,7 +20,8 @@ Our life is currently impacted by COVID-19.  We wanted to use our skills to demo
     - Fatality rate is time independent
     - Fatality risk (binary score of 0 and 1) is our target feature
   - Health and socioeconomic features were selected
-  - Selected top 20 features leading to high risk by Random Forest 
+  - Data preprocessing (data_ETL_for_ML_final.ipynb)
+  - Selected top 20 features leading to high risk by Random Forest (ML.ipynb)
   - Used Random Forest, SVM, Logistic regression, and Neural network for classification
   - Compared the accuracy of prediction by different machine learning algorithms
 
